@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/index.ts": {
-      "includeFiles": "{src/**/*.gql,src/**/*Resolvers.ts}"
+      "includeFiles": "{../src/**/*.gql,../src/**/*Resolvers.ts}"
     }
   },
   "routes": [{ "src": "/(.*)", "dest": "/api/index.ts" }]
